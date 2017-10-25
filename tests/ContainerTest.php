@@ -22,4 +22,12 @@ class ContainerTest extends \PHPUnit_Framework_TestCase
         $container = new Container();
         $container->get('missing');
     }
+    
+    public function testSharedObjects()
+    {
+        $class = new \stdClass();
+        $container = new Container();
+        $container->add('class', $class);
+        $this->assertSame($class, $container->get('class'));
+    }
 }

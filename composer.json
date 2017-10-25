@@ -20,8 +20,7 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": "^5.4.0 || ^7.0",
-        "psr/container-implementation": "^1.0",
+        "php": "^5.5.9 || ^7.0",
         "container-interop/container-interop": "^1.0"
     },
     "require-dev": {
