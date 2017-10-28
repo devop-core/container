@@ -23,6 +23,14 @@ class ContainerTest extends \PHPUnit_Framework_TestCase
         $container->get('missing');
     }
     
+    public function testSetMultipleService()
+    {
+        $container = new Container();
+        $container->add('string', 'test string');
+        $this->setExpectedException('\DevOp\Core\Container\Exception\ContainerException');
+        $container->add('string', 'new string');
+    }
+    
     public function testSharedObjects()
     {
         $class = new \stdClass();
