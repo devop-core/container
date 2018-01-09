@@ -39,8 +39,8 @@ class Container implements ContainerInterface
     }
 
     /**
-     * @param string $id
-     * @param id|string|array|object $arguments
+     * @param int|string $id
+     * @param mixed $arguments
      * @throws ContainerException
      */
     public function add($id, $arguments)
