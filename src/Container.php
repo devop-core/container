@@ -1,9 +1,9 @@
 <?php
-namespace DevOp\Core\Container;
+namespace DevOp\Core;
 
 use Psr\Container\ContainerInterface;
-use DevOp\Core\Container\Exception\NotFoundException;
-use DevOp\Core\Container\Exception\ContainerException;
+use DevOp\Core\Exception\NotFoundException;
+use DevOp\Core\Exception\ContainerException;
 
 class Container implements ContainerInterface
 {

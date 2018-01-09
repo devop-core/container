@@ -1,5 +1,5 @@
 <?php
-namespace DevOp\Core\Container\Exception;
+namespace DevOp\Core\Exception;
 
 use Psr\Container\ContainerExceptionInterface;
 

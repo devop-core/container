@@ -1,7 +1,7 @@
 <?php
-namespace DevOp\Core\Container\Test;
+namespace DevOp\Core\Test;
 
-use DevOp\Core\Container\Container;
+use DevOp\Core\Container;
 
 class ContainerTest extends \PHPUnit_Framework_TestCase
 {
@@ -18,7 +18,7 @@ class ContainerTest extends \PHPUnit_Framework_TestCase
     
     public function testThrowException()
     {
-        $this->setExpectedException('\DevOp\Core\Container\Exception\NotFoundException');
+        $this->setExpectedException('\DevOp\Core\Exception\NotFoundException');
         $container = new Container();
         $container->get('missing');
     }
@@ -27,7 +27,7 @@ class ContainerTest extends \PHPUnit_Framework_TestCase
     {
         $container = new Container();
         $container->add('string', 'test string');
-        $this->setExpectedException('\DevOp\Core\Container\Exception\ContainerException');
+        $this->setExpectedException('\DevOp\Core\Exception\ContainerException');
         $container->add('string', 'new string');
     }
     
