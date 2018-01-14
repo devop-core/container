@@ -1,13 +1,16 @@
 # DevOp Dependency Injection Library
 
+## Description
+>This library is just proof of concept. We do **NOT** recommended you to use in production env.
+
+Implementation of DI container for your PHP projects.
+
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
 [![Build Status][ico-travis]][link-travis]
 [![Coverage Status][ico-scrutinizer]][link-scrutinizer]
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
-
-Dependency injection service only for proff of concept
 
 ## Install
 
