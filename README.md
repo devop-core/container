@@ -1,12 +1,13 @@
-# DevOp Dependency Injection Library
+# Dependency injection library
 
 ## Description
->This library is just proof of concept. We do **NOT** recommended you to use in production env.
 
-Implementation of DI container for your PHP projects.
+> This library is just proof of concept. > We do **NOT** recommended the use of production environment.
+
+Provide dependency injection
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
-[![Software License][ico-license]](LICENSE.md)
+[![Software License][ico-license]](LICENSE)
 [![Build Status][ico-travis]][link-travis]
 [![Coverage Status][ico-scrutinizer]][link-scrutinizer]
 [![Quality Score][ico-code-quality]][link-code-quality]
@@ -37,26 +38,26 @@ var_dump($container->get('class'));
 
 ## Change log
 
-Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
+Please see [CHANGELOG](.github/CHANGELOG.md) for more information on what has changed recently.
 
 ## Testing
 
 ``` bash
-$ vendor/bin/phpunit
+vendor/bin/phpunit
 ```
 
 ## Contributing
 
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
 
 ## Credits
 
 - [Zlatin Hristov](https://z-latko.info)
-- [All Contributors](https://github.com/devop-core/container/graphs/contributors)
+- [All Contributors](https://github.com/devop-core/config/graphs/contributors)
 
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
 
 [ico-version]: https://img.shields.io/packagist/v/devop-core/container.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
