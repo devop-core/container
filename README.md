@@ -15,10 +15,10 @@ Provide dependency injection
 
 ## Install
 
-Via Composer
+Package is available on [Packagist](link-packagist), you can install it using [Composer](http://getcomposer.org).
 
 ``` bash
-$ composer require devop-core/container
+composer require devop-core/container
 ```
 
 ## Usage
@@ -43,7 +43,7 @@ Please see [CHANGELOG](.github/CHANGELOG.md) for more information on what has ch
 ## Testing
 
 ``` bash
-vendor/bin/phpunit
+$ vendor/bin/phpunit
 ```
 
 ## Contributing
@@ -53,11 +53,11 @@ Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
 ## Credits
 
 - [Zlatin Hristov](https://z-latko.info)
-- [All Contributors](https://github.com/devop-core/config/graphs/contributors)
+- [All Contributors](https://github.com/devop-core/http/graphs/contributors)
 
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE) for more information.
+The MIT License (MIT). Please see [License File](.github/LICENSE.md) for more information.
 
 [ico-version]: https://img.shields.io/packagist/v/devop-core/container.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
