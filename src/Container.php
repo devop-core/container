@@ -21,6 +21,9 @@ class Container implements ContainerInterface
     public function get($id)
     {
         if ($this->has($id)) {
+            if ($this->services[$id] instanceof \Closure) {
+                return call_user_func($this->services[$id]);
+            }
             return $this->services[$id];
         }
         throw new NotFoundException();
